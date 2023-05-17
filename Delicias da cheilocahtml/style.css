@@ -1,0 +1,89 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+/*-------nav--------*/
+
+header, footer {
+    background: rgb(222, 235, 222);
+}
+#nav-one ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 20px;
+}
+#nav-one ul li a:hover{
+    color: rgb(50, 107, 50);
+    text-decoration: underline 5px solid;
+    transition: all 1s;
+}
+
+/*-------endNav-------*/
+section {
+    padding: 10px;
+}
+#hello {
+    background-color: rgb(222, 235, 222);
+}
+
+.card {
+    margin: 0 auto;
+}
+
+#inform a {
+    color: black;
+}
+#inform a:hover {
+    color: rgb(50, 107, 50);
+    transition: all 1s;
+}
+
+#button {
+    margin: 10px;
+
+}
+
+#button a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#button a:hover {
+    color: rgb(50, 107, 50);
+    transition: all 1s;
+}
+
+footer{
+    padding: 10px;
+}
+
+footer p {
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+/*-------------Media--------*/
+
+@media (min-width: 700px) {
+    #text {
+        margin-top: 20%;
+    }
+}
+
